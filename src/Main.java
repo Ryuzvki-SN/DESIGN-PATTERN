@@ -13,8 +13,8 @@ public class Main {
         view.init();
 
         //Model
-        IConvert fahrenheint = new CelsiusToFahrenheit();
-        Temperature temperature = new Temperature(fahrenheint);
+        IConvert fahrenheit = new CelsiusToFahrenheit();
+        Temperature temperature = new Temperature(fahrenheit);
 
         //Controller
         TController controller = new TController(temperature, view);
