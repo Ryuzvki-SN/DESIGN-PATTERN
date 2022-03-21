@@ -1,4 +1,4 @@
-package contoller;
+package controller;
 
 import model.Temperature;
 import obs.Observable;
